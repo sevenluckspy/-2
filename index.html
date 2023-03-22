@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>라떼아트</title>
+    <style>
+      /* 이서윤체 폰트 적용을 위한 코드 */
+      @font-face {
+        font-family: "LeeSeoyun";
+        src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2202-2@1.0/LeeSeoyun.woff")
+          format("woff");
+        font-weight: normal;
+        font-style: normal;
+      }
+
+      /* body태그 자체에 css 요소 부여 */
+      body {
+        font-family: "LeeSeoyun";
+        margin: 0;
+        display: flex;
+        justify-content: center;
+        background-image: url("./background.png");
+      }
+
+      .container {
+        width: 390px;
+        background-color: #ff00ff;
+        height: 100%;
+      }
+      .container2 {
+        width: 600px;
+        background-color: #ff00ff;
+        height: 100%;
+      }
+
+      .photos {
+        margin-top: 30px;
+      }
+
+      .photo-frame {
+        background-color: white;
+        margin: 15px 20px;
+        height: 200px;
+        background-size: cover;
+        position: relative;
+      }
+      .photo-frame2 {
+        background-color: white;
+        margin: 15px 20px;
+        height: 500px;
+        background-size: cover;
+        position: relative;
+      }
+      .photo-frame3 {
+        background-color: white;
+        margin: 15px 20px;
+        height: 300px;
+        background-size: cover;
+        position: relative;
+      }
+      .photo-frame4 {
+        background-color: white;
+        margin: 15px 20px;
+        height: 260px;
+        background-size: contain;
+        position: relative;
+      }
+      /* 하단 영역 스타일링 */
+      .footer {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+
+      .f-title {
+        font-size: 25px;
+        font-weight: 900;
+        color: white;
+      }
+      .f-date {
+        font-size: 15px;
+        font-weight: 500;
+        color: white;
+      }
+      .header {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+
+      .h-title {
+        font-size: 25px;
+        font-weight: 900;
+        color: white;
+      }
+      .h-date {
+        font-size: 15px;
+        font-weight: 500;
+        color: white;
+      }
+
+      #image1 {
+        background-image: url("./1.jpg");
+      }
+
+      #image2 {
+        background-image: url("./2.jpg");
+      }
+
+      #image3 {
+        background-image: url("./3.jpg");
+      }
+
+      #image4 {
+        background-image: url("./4.jpg");
+      }
+      #image5 {
+        background-image: url("./5.jpg");
+      }
+      #image6 {
+        background-image: url("./6.jpg");
+      }
+      #image7 {
+        background-image: url("./7.jpg");
+      }
+      #image8 {
+        background-image: url("./8.jpg");
+      }
+      #image9 {
+        background-image: url("./9.jpg");
+      }
+      #image10 {
+        background-image: url("./10.jpg");
+      }
+      #image11 {
+        background-image: url("./11.jpg");
+      }
+      #image12 {
+        background-image: url("./12.jpg");
+      }
+      #image13 {
+        background-image: url("./13.jpg");
+      }
+
+      .photo-description {
+        color: white;
+        background-color: black;
+        width: fit-content;
+        padding: 0 20px;
+        margin-bottom: 10px;
+        border-radius: 10px;
+        position: absolute;
+        bottom: 0;
+        transform: translate(-50%);
+        left: 50%;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+        <div class="footer">
+            <p class="f-title">라떼아트 경연대회!!</p>
+            <p class="f-date">2023.03.21</p>
+          </div>
+      <div class="photos">
+        <div id="image1" class="photo-frame2">
+          <span id="desc1" class="photo-description">
+            Thanks for
+          </span>
+        </div>
+        <div id="image2" class="photo-frame">
+          <span id="desc2" class="photo-description">
+            
+          </span>
+        </div>
+        <div id="image3" class="photo-frame2">
+          <span id="desc3" class="photo-description">
+            Latte queens
+          </span>
+        </div>
+        <div id="image4" class="photo-frame3">
+          <span id="desc4" class="photo-description">
+            연회장
+          </span>
+        </div>
+        <div id="image5" class="photo-frame">
+            <span id="desc4" class="photo-description">
+              그랜드테이블
+            </span>
+          </div>
+          <div id="image6" class="photo-frame2">
+            <span id="desc4" class="photo-description">
+              신동환
+            </span>
+          </div>
+          <div id="image7" class="photo-frame2">
+            <span id="desc4" class="photo-description">
+              김세희
+            </span>
+          </div>
+          <div id="image8" class="photo-frame2">
+            <span id="desc4" class="photo-description">
+              김세영
+            </span>
+          </div>
+          <div id="image9" class="photo-frame2">
+            <span id="desc4" class="photo-description">
+         
+            </span>
+          </div>
+        
+          <div id="image10" class="photo-frame4">
+            <span id="desc4" class="photo-description">
+              
+            </span>
+          </div>
+          <div id="image11" class="photo-frame4">
+            <span id="desc4" class="photo-description">
+              
+            </span>
+          </div>
+          <div id="image12" class="photo-frame">
+            <span id="desc4" class="photo-description">
+              
+            </span>
+          </div>
+          <div id="image13" class="photo-frame">
+            <span id="desc4" class="photo-description">
+              
+            </span>
+          </div>
+      </div>
+      <div class="footer">
+        <p class="f-title">좋은 추억 감사합니다.</p>
+      </div>
+    </div>
+  </body>
+</html>
